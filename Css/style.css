@@ -19,7 +19,6 @@ body
 	font-family:Georgia, serif;
 	font-size:16px;
 	color: 	#2F4F4F;
-	border: 2px solid red;
 }
 
 /* Header */
@@ -35,7 +34,6 @@ body
 /*Header Menu*/
 #topbar
 {
-	border: 2px solid lime;
 	height: 90px;
 	padding:0;
 }
@@ -72,7 +70,6 @@ ul
 	padding:0xp 15xp 0xp 15xp;
 	text-align: right;
 	font-size: 18px;
-	border: 2px solid yellow;
 }
 #topmenu a, #topmenu a:visited, #topmenu a:active
 {
@@ -93,7 +90,7 @@ ul
 #content
 {
 	background:  #c9ddc9;
-	border: 2px solid blue;
+	border: 3px solid #2F4F4F;
 }
 
 p
@@ -185,28 +182,32 @@ h1,h2,h3,h4,h5
 	font-size:16px;
 }
 /* Footer */
-#footer {
-	margin: 0 auto;
-	width: 900px;
+#footer
+{
+	display:block;
+	list-style:none;
+	background-color: #2F4F4F;
+	margin: 0;
+	width: 897px;
+	max-width: 897px;
 	height: 90px;
-	padding:5px 0px 5px 0px;
 	color: #b4cec7;
 	text-align: center;
-	background: #2f4f4f;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 10px;
 	clear: both;
 }
 /* Form */
-	#content form {
-		margin: 5px 0px 5px 40px;
-		padding: 5px 0px 10px 0px;
-		}
+#content form
+{
+	margin: 5px 0px 5px 40px;
+	padding: 5px 0px 10px 0px;
+}
 
 /* Textarea */
 	#content textarea {
-		width: 600px;
-		height: 200px;
+		width: 700px;
+		height: 250px;
 		}
 
 /* Button */
