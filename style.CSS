@@ -1,0 +1,171 @@
+#body
+{
+	background: #C9DDC9;
+}
+
+#wrap
+{
+	width:900px;
+	margin:10px auto 15px auto;
+	font-family:Georgia, serif;
+	font-size:16px;
+	color:#8FBC8F;
+}
+
+/* Header */
+#header
+{
+	margin:0px auto 5px auto;
+	background:url(../Images/maisema.png) no-repeat left top;
+	font-family:Georgia, serif;
+	color:#2F4F4F;
+	clear:both;
+}
+
+/*Header Menu*/
+#topbar
+{
+		height: 90px;
+}
+#topmenu
+{
+	display:block;
+	list-style:none;
+	padding:5px 0px 5px 0px;
+	float:right;
+	width:900px;
+	max-width: 900px;
+	background-color: #2F4F4F;
+
+}
+#topmenu li
+{
+	display:inline;
+}
+#topmenu a
+{
+	display: block;
+	float: left;
+	height: 80px;
+	margin:0px 0px 0px 15px;
+	text-decoration: underline #c2ebe0;
+	padding:0xp 15xp 0xp 15xp;
+	text-align: right;
+	font-size: 18px;
+}
+#topmenu a, #topmenu a:visited, #topmenu a:active
+{
+	color:#b4cec7;
+}
+#topmenu a:hover
+{
+	color:#b4cec7;
+
+}
+#topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active
+{
+	color:#b4cec7;
+
+}
+
+/*Content*/
+#content
+{
+	background:  #c9ddc9;
+}
+
+/* List */
+#content ol, #content ul 
+{
+	margin: 0px 0px px 15px;
+}
+#content li 
+{
+	padding: 0px 0px 3px 5px;
+}
+
+/* Table */
+#content table
+{
+	border: 3px solid #8FBC8F;
+	margin: 0px 0px 5px 40px;
+	border-collapse: collapse;
+	background: #dcf1dc;
+}
+#content th 
+{
+	border: 3px solid #8FBC8F;
+	padding: 5px 15px 5px 15px;
+}
+#content td 
+{
+	border: 1px solid #8FBC8F;
+	padding: 5px 15px 5px 15px;
+}
+
+/* Mainpage */
+#mainpage 
+{
+	width:700px;
+	float:left;
+	padding:5px 5px 5px 0px;
+	height:auto
+}
+#mainpage p 
+{
+	line-height:22px;
+	margin:10px 0px 22px 0px;
+	text-align:justify;
+}
+#mainpage blockquote
+{
+	background:#616c67;
+	display:block;
+	margin:5px;
+	font-family:Georgia, serif;
+	font-style:italic;
+}
+h1,h2,h3,h4,h5
+{
+	color:#628c62;
+	font-weight:bold;
+	font-family:Georgia, serif;
+}
+#mainpage h1
+{
+	font-size:24px;
+	color:#8FBC8F;
+}
+#mainpage h2
+{
+	font-size:22px;
+	padding-top:20px;
+	padding-bottom:5px;
+	border-bottom:1px solid #b4cec7;
+}
+#mainpage h3
+{
+	font-size:20px;
+}
+#mainpage h4
+{
+	font-size:18px;
+}
+#mainpage h5
+{
+	font-size:16px;
+}
+
+/* Footer */
+#footer {
+	margin: 0 auto;
+	width: 900px;
+	height: 90px;
+	padding:5px 0px 5px 0px;
+	color: #2f4f4f;
+	text-align: center;
+	background: #2f4f4f;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	clear: both;
+}
