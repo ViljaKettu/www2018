@@ -1,22 +1,32 @@
-#body
+body
 {
-	background: #C9DDC9;
+	background-color: #FFFAF0;
+}
+/* Centering (images etc.) */
+.center 
+{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
 }
 
+/* Wrap */
 #wrap
 {
 	width:900px;
 	margin:10px auto 15px auto;
 	font-family:Georgia, serif;
 	font-size:16px;
-	color:#8FBC8F;
+	color: 	#2F4F4F;
+	border: 2px solid red;
 }
 
 /* Header */
 #header
 {
 	margin:0px auto 5px auto;
-	background:url(../Images/maisema.png) no-repeat left top;
+	background-image:url(Images/maisema.png);
 	font-family:Georgia, serif;
 	color:#2F4F4F;
 	clear:both;
@@ -25,7 +35,9 @@
 /*Header Menu*/
 #topbar
 {
-		height: 90px;
+	border: 2px solid lime;
+	height: 90px;
+	padding:0;
 }
 #topmenu
 {
@@ -33,11 +45,19 @@
 	list-style:none;
 	padding:5px 0px 5px 0px;
 	float:right;
+	height: 100%;
 	width:900px;
 	max-width: 900px;
 	background-color: #2F4F4F;
 
 }
+
+ul
+{
+	margin: 0;
+	padding: 0;
+}
+
 #topmenu li
 {
 	display:inline;
@@ -46,12 +66,13 @@
 {
 	display: block;
 	float: left;
-	height: 80px;
+	height: 30px;
 	margin:0px 0px 0px 15px;
-	text-decoration: underline #c2ebe0;
+	text-decoration: underline #b4cec7;
 	padding:0xp 15xp 0xp 15xp;
 	text-align: right;
 	font-size: 18px;
+	border: 2px solid yellow;
 }
 #topmenu a, #topmenu a:visited, #topmenu a:active
 {
@@ -72,12 +93,19 @@
 #content
 {
 	background:  #c9ddc9;
+	border: 2px solid blue;
+}
+
+p
+{	
+	padding: 12px 12px 12px 12px;
 }
 
 /* List */
 #content ol, #content ul 
 {
 	margin: 0px 0px px 15px;
+	
 }
 #content li 
 {
@@ -127,6 +155,7 @@
 }
 h1,h2,h3,h4,h5
 {
+	padding: 12px 12px 12px 12px;
 	color:#628c62;
 	font-weight:bold;
 	font-family:Georgia, serif;
@@ -155,17 +184,52 @@ h1,h2,h3,h4,h5
 {
 	font-size:16px;
 }
-
 /* Footer */
 #footer {
 	margin: 0 auto;
 	width: 900px;
 	height: 90px;
 	padding:5px 0px 5px 0px;
-	color: #2f4f4f;
+	color: #b4cec7;
 	text-align: center;
 	background: #2f4f4f;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 10px;
 	clear: both;
+}
+/* Form */
+	#content form {
+		margin: 5px 0px 5px 40px;
+		padding: 5px 0px 10px 0px;
+		}
+
+/* Textarea */
+	#content textarea {
+		width: 600px;
+		height: 200px;
+		}
+
+/* Button */
+	#content button {
+		margin: 5px 0px 5px 40px;
+		padding: 1px 5px 1px 5px;
+}
+/* Video */
+	#content video {
+		padding: 5px 5px 5px 5px;
+		}
+
+/* Audio */
+	#content audio {
+		margin: 5px 5px 5px 20px;
+		}
+
+/* Drag and drop */
+	#dragbox1, #dragbox2 {
+		float: left;
+		width: 115px;
+		height: 115px;
+		margin: 5px 5px 5px 5px;
+		padding: 5px 5px 5px 5px;
+		border: 1px solid #F5F5DC;
 }
