@@ -8,7 +8,7 @@ body
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 100%;
+		width: 60%;
 }
 
 /* Wrap */
@@ -101,11 +101,12 @@ p
 /* List */
 #content ol, #content ul 
 {
-	margin: 0px 0px px 15px;
+	margin: 12px 12px 12px 12px;
 	
 }
 #content li 
 {
+	margin: 10px 0px 0px 80px;
 	padding: 0px 0px 3px 5px;
 }
 
@@ -215,10 +216,6 @@ h1,h2,h3,h4,h5
 		margin: 5px 0px 5px 40px;
 		padding: 1px 5px 1px 5px;
 }
-/* Video */
-	#content video {
-		padding: 5px 5px 5px 5px;
-		}
 
 /* Audio */
 	#content audio {

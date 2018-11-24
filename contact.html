@@ -63,18 +63,21 @@
 			<b>Message:</b><br>
 			<textarea name="message" maxlength="3000" size="50"></textarea><br>
 			<br>
-			<b>Location (filled automatically):</b>
-			<p id="place"></p><br>
 			<input type="submit" value="Send message">
 		</form>
 	
-		<p>Add your current location to the message (optional):</p>
+		<p>
+			<b>Location:</b>
+			<p id="place"></p>
 	
+			<p>Add your current location (optional):
+			</p>
+		</p>
 		<button onclick="getLocation()">Add location</button>
 		<br>
 		
 		<p id="place"></p>
-	
+
 		<script>
 			var x = document.getElementById("place");
 			
