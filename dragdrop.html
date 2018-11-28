@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset-utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+
+<script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+</script>
+
+<head>
+<title> WWW and Internet </title>
+<link href="/www2018Css/style.css" rel="stylesheet" type="text/css">
+</head >
+
+<body>
+	<div id="wrap"> 
+		<div id="topbar">
+
+			<ul id="topmenu">
+				<li class="active"><a href="#">Home </a>
+				</li>
+				  <li><a href="dragdrop.html">Drag&Drop</a>
+				  </li>
+				<li class="active"><a href="contact.html"> Contact</a>
+				</li>
+			</ul>
+		</div>
+		<div id="content">
+			<div id="header">
+			</div>
+			<div id="mainpage>">
+			</div>
+
+		
+			
+			<h2>Drag and Drop</h2>
+			<p>Try to drag the picture from one box to another.</p>
+
+			<div id="dragbox1" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<img src="/www2018/Images/maisema.png" draggable="true" ondragstart="drag(event)" id="drag1" width="200" height="200">
+			</div>
+
+			<div id="dragbox2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+					
+			<div id="footer">
+					<p>HTML page by Vilja Kettunen, 2018</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
