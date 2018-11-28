@@ -1,0 +1,18 @@
+<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"><!--
+	 created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+	<url>
+		<loc>https://viljakettu.github.io/www2018/index.html</loc>
+		<lastmod>2018-11-28T14:43:56+00:00</lastmod>
+		<priority>1.00</priority>
+	</url>
+	<url>
+		<loc>https://viljakettu.github.io/www2018/dragdrop.html</loc>
+		<lastmod>2018-11-28T14:43:56+00:00</lastmod><priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://viljakettu.github.io/www2018/contact.html</loc>
+		<lastmod>2018-11-28T14:43:56+00:00</lastmod>
+		<priority>0.80</priority>
+	</url>
+
+</urlset>
